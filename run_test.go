@@ -4,10 +4,11 @@ package check_test
 
 import (
 	"errors"
-	. "gopkg.in/check.v1"
 	"os"
 	"regexp"
 	"sync"
+
+	. "github.com/danrubel/check_go"
 )
 
 var runnerS = Suite(&RunS{})
